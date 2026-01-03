@@ -1,0 +1,26 @@
+.movie-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.movie-detail-img {
+  margin-right: 30px;
+}
+
+.movie-detail-info > * {
+  margin: 7px;
+  width: 500px;
+}
+
+.movie-detail-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.movie-detail-back {
+  display: flex;
+  justify-content: flex-end;
+}
